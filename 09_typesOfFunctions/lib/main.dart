@@ -4,8 +4,9 @@ void main() {
 
   //////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////Anonymous Function////////////////////////////
-  /// other names: lambda or closure
+  /// other names: lambda, closure or one-time-use function
   /// is the function that doesn't need a name or a return type
+  /// Useful when you need to pass a function as an argument to another function
   /// You might assign an anonymous function to a variable
 
   /// Example 01:
