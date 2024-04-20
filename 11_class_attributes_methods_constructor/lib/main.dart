@@ -6,9 +6,9 @@ void main() {
   // print(tony.age);
   // print(tony.numberOfArms);
 
-  Human mohamed = Human('Mohamed Mostafa', 21, 178);
+  Human mohamed = Human(name: 'Mohamed Mostafa', age: 21, height: 178);
   // print(mohamed.age);
   // print(mohamed.numberOfArms);
 
-  mohamed.read();
+  mohamed.printDetails();
 }
