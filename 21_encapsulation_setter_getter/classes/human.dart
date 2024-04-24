@@ -4,11 +4,7 @@ class Human {
   String? name;
   double? height;
 
-  Human({required String name, required int age, required double height}) {
-    this.name = name;
-    this.age = age;
-    this.height = height;
-  }
+  Human({required this.name, required this.age, required this.height});
 
   void printObjectDetails() {
     print('$name\'s age is $age');
@@ -16,9 +12,7 @@ class Human {
     print('$name\'s Number Of Arms is $_numberOfArms');
   }
 
-  //////////////////////////////////////////////////////////////////////////////
-  /////////////////////////Setter & Getter//////////////////////////////////////
-  ///
+  /* Setter & Getter for the private member */
   set numberOfArms(int numberOfArms) {
     if (numberOfArms >= 0 && numberOfArms <= 2) {
       this._numberOfArms = numberOfArms;

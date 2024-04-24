@@ -7,4 +7,6 @@ void main() {
 
   ahmed.numberOfArms = 1;
   print(ahmed.numberOfArms);
+
+  ahmed.printObjectDetails();
 }
