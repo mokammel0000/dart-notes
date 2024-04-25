@@ -1,8 +1,9 @@
 void main() {
-  /* Var: Var is NOT a Type,
-  var can be int, double, string or even dynamic type.
-  It's a placeholder that you can use to tell the editor to replace it with the correct Type.
-  once you use it, the variable will be Statically binded to it's type automatically */
+  /**
+   * if you assign a value to a var variable ---> type inference (Dart compiler 
+    infers the type of the variable based on the value assigned to it.)
+   * if you don't assign a value to it ---> will be dynamic
+  */
 
   var name = 'Mohamed';
   print(name.runtimeType);
