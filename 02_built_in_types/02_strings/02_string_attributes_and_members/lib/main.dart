@@ -52,7 +52,7 @@ void main() {
   //----------------------------------------------------------------------------
 
   /** Trim Function: remove the white spaces */
-  s = '          Mohamed      ';
+  // s = '          Mohamed      ';
   // print(s + 'bla');
 
   // print(s.trim() + 'bla');
@@ -65,11 +65,11 @@ void main() {
 
   /** Split & Join functions */
 
-  // s = 'Mohamed, Abdullah, Abdelmottaleb, Abdmanaf, Qossay, Kollab';
-  // print(s.split(',')); // split the string to elements in a list.
+  s = 'Mohamed, Abdullah, Abdelmottaleb, Abdmanaf, Qossay, Kollab';
+  print(s.split(',')); // split the string to elements in a list.
 
-  // List<String> words = s.split(',');
+  List<String> words = s.split(',');
 
-  // String joining = words.join(); // Join the list in one string.
-  // print(joining);
+  String joining = words.join(); // Join the list in one string.
+  print(joining);
 }
