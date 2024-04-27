@@ -1,3 +1,9 @@
+/** Note that: 
+ * when you assign a (named, arrow, or anonymous) function to a variable ---> 
+ * that variable deals like a function after that 
+ * [[[[[[taken parameters and returns value]]]]]]
+ */
+
 int squar(int x) {
   return x * x;
 }
