@@ -35,4 +35,7 @@ void main() {
   // print(list.indexWhere((element) => element > 10));
   // print(list.lastIndexWhere((element) => element > 10));
   print(list.singleWhere((element) => element > 40));
+
+  print(list.any((element) => element % 2 == 0)); // true
+  print(list.any((element) => element == 100)); // false
 }
